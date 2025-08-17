@@ -40,7 +40,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker Image
-      run: docker build -t jerinstalin004/cancer-ml:latest .
+      run: docker build -t JabezJoshwin/cancer-ml:latest .
 
     - name: Push Docker Image
-      run: docker push jerinstalin004/cancer-ml:latest
+      run: docker push JabezJoshwin/cancer-ml:latest
